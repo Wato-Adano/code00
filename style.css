@@ -1,0 +1,84 @@
+#container{
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    float:left;
+    margin-right:65%;
+    
+
+}
+.botton{
+    background-color:white;
+    color:yellow ;
+    height: 70px;
+    weight: 54px;
+
+}
+.conatainer2{
+    display: flex;
+    justify-content: space-between;
+
+}
+.words{
+    display: flex;
+}
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.body{
+    display: flex;
+}
+.sect{
+    text-align: center;
+}
+.word5{
+    text-align: center;
+}
+.image2{
+    float: left;
+    margin-left: 50%;
+    display: flex;
+
+}
+.image3{
+margin-right: 45%;
+display: flex;
+float: right;
+}
+.footer3{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: beige;
+}
+.word6{
+    display: flex;
+}
+.word8{
+    background-color: black;
+    color: beige;
+    text-align: right;
+    margin-top: 0%;
+    
+}
+.sent{
+    background-color: yellow;
+    color: beige;
+}
+#content{
+    display: flex;
+}
+#words{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media querry and (max-width){
+    .right,.left{
+        width: 550px;
+    }
+}
+
